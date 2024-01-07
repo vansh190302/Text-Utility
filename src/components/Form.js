@@ -27,7 +27,7 @@ const sentenceclick = ()=>{
   props.showalert("Converted to SentenceCase", "success");
 }
 const copyclick = ()=>{
-  let text1 = text;
+  // let text1 = text;
   navigator.clipboard.writeText(text);
   props.showalert("Text Copied!!!", "success");
 }
